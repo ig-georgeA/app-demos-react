@@ -1,0 +1,318 @@
+.row-layout {
+  display: flex;
+}
+.inputs-container {
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  align-content: stretch;
+  height: 100%;
+}
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.column-layout_1 {
+  background-color: transparent;
+  border-color: hsla(var(--ig-surface-500));
+  border-style: solid;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  gap: 32px;
+  margin: 0.0px;
+  padding: 32.0px;
+  width: 500px;
+  min-width: 320px;
+  min-height: 50px;
+  max-width: 500px;
+  flex-shrink: 0;
+}
+.group {
+  height: max-content;
+  min-width: 120px;
+}
+.group_1 {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: max-content;
+}
+.group_2 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 8px;
+  overflow: auto;
+  position: relative;
+  min-width: 50px;
+  min-height: max-content;
+}
+.group_3 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_4 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 16px;
+  overflow: hidden;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_5 {
+  background-color: hsla(var(--ig-surface-500));
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: stretch;
+  gap: 32px;
+  padding: 32px;
+  width: 500px;
+  min-width: 320px;
+  min-height: 50px;
+  max-width: 500px;
+  flex-shrink: 0;
+}
+.group_6 {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 32px;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.group_7 {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+}
+.group_8 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+}
+.group_9 {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.group_10 {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  position: relative;
+  margin: 8px;
+  min-width: 50px;
+}
+.group_11 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  position: relative;
+  margin: 8px;
+  min-width: 50px;
+}
+.group_12 {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  overflow: hidden;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.group_13 {
+  justify-content: flex-start;
+  align-items: flex-end;
+  align-content: flex-start;
+  position: relative;
+  padding: 16px;
+  min-width: 50px;
+  min-height: 50px;
+}
+.input {
+  height: max-content;
+  min-width: min-content;
+  min-height: max-content;
+  max-height: max-content;
+}
+.textarea {
+  height: max-content;
+  min-width: min-content;
+}
+.slider {
+  height: max-content;
+  min-width: 50px;
+}
+.user-input {
+  width: max-content;
+  height: max-content;
+}
+.button {
+  height: max-content;
+  flex-shrink: 0;
+}
+.button-group {
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.user-input_1 {
+  margin: 0 0 0 16px;
+  width: max-content;
+  height: max-content;
+}
+.checkbox {
+  margin: 0 16px;
+  width: max-content;
+  height: max-content;
+}
+.radio-group {
+  margin: 0 32px 0 16px;
+  width: max-content;
+  height: max-content;
+}
+.radio {
+  padding: 8px;
+}
+.input_1 {
+  margin: 0 0 16px;
+  height: max-content;
+  min-width: min-content;
+  min-height: max-content;
+  max-height: max-content;
+  flex-shrink: 0;
+}
+.button_1 {
+  margin: 16px;
+  height: max-content;
+  flex-shrink: 0;
+}
+.date-time-input {
+  height: max-content;
+  min-width: min-content;
+}
+.range-slider {
+  height: max-content;
+  min-width: 50px;
+}
+.icon {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+  min-width: max-content;
+  min-height: max-content;
+  max-width: max-content;
+  max-height: max-content;
+}
+.chip {
+  margin: 0 16px 8px 0;
+  width: max-content;
+  height: max-content;
+}
+.icon_1 {
+  --size: 18px;
+  font-size: 18px;
+  width: 18px;
+  height: 18px;
+}
+.chip_1 {
+  margin: 0 0 8px;
+  width: max-content;
+  height: max-content;
+}
+.avatar::part(base) {
+  color: hsla(var(--ig-gray-100));
+  background-color: hsla(var(--ig-secondary-800));
+}
+.icon_2 {
+  color: hsla(var(--ig-gray-100));
+}
+.chip_2 {
+  width: max-content;
+  height: max-content;
+}
+.icon_3 {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+.icon_4 {
+  --size: 36px;
+  font-size: 36px;
+  width: 36px;
+  height: 36px;
+}
+.icon_5 {
+  --size: 48px;
+  font-size: 48px;
+  width: 48px;
+  height: 48px;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
+.hyperlink {
+  color: hsla(var(--ig-info-500));
+  cursor: pointer;
+  height: max-content;
+  min-width: min-content;
+  flex-shrink: 0;
+}
+.avatar_1::part(base) {
+  color: hsla(var(--ig-gray-100));
+  background-color: hsla(var(--ig-secondary-300));
+}
+.avatar_2::part(base) {
+  color: hsla(var(--ig-surface-500));
+  background-color: hsla(var(--ig-secondary-200));
+}
+.avatar_3::part(base) {
+  color: hsla(var(--ig-surface-500));
+  background-color: hsla(var(--ig-secondary-200));
+}
+.badge {
+  right: -8px;
+  top: -8px;
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+.badge_1 {
+  right: -16px;
+  top: -16px;
+  position: absolute;
+  width: max-content;
+  height: max-content;
+}
+.badge_2 {
+  width: max-content;
+  height: max-content;
+}

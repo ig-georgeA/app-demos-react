@@ -1,0 +1,98 @@
+.column-layout {
+  display: flex;
+  flex-direction: column;
+}
+.stepper-container {
+  justify-content: flex-start;
+  align-items: center;
+  align-content: flex-start;
+  height: 100%;
+}
+.group {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 16px;
+  position: relative;
+  min-width: 50px;
+  min-height: 50px;
+  flex-shrink: 0;
+}
+.row-layout {
+  display: flex;
+}
+.group_1 {
+  justify-content: center;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 32px;
+  position: relative;
+  padding: 32px;
+  min-width: 50px;
+  min-height: 50px;
+  align-self: stretch;
+}
+.stepper {
+  min-width: 0;
+  min-height: 0;
+  max-width: 800px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
+.step-content {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  gap: 32px;
+  overflow: auto;
+  position: relative;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.step-content_1 {
+  justify-content: flex-start;
+  align-items: stretch;
+  align-content: flex-start;
+  overflow: auto;
+  position: relative;
+  height: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+}
+.input {
+  height: max-content;
+  min-width: min-content;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+.button {
+  height: max-content;
+  align-self: flex-start;
+}
+.button_1 {
+  height: max-content;
+  flex-shrink: 0;
+}
+.button_2::part(base) {
+  color: hsla(var(--ig-surface-500));
+}
+.icon {
+  --size: 24px;
+  font-size: 24px;
+  width: 24px;
+  height: 24px;
+}
+.text {
+  height: max-content;
+  min-width: min-content;
+}
+.grid {
+  min-width: 600px;
+  min-height: 300px;
+  flex-grow: 1;
+  flex-basis: 0;
+}
