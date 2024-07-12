@@ -1,8 +1,8 @@
 import { useCallback, useEffect, useState } from 'react';
-import { SalesType } from '../models/Financial/sales-type';
-import { TradingType } from '../models/Financial/trading-type';
-import { GlobalElectricityDemandType } from '../models/Financial/global-electricity-demand-type';
 import { BoxOfficeRevenueType } from '../models/Financial/box-office-revenue-type';
+import { GlobalElectricityDemandType } from '../models/Financial/global-electricity-demand-type';
+import { TradingType } from '../models/Financial/trading-type';
+import { SalesType } from '../models/Financial/sales-type';
 import { getBoxOfficeRevenue, getGlobalElectricityDemand, getSales, getTrading } from '../services/financial';
 
 export const useGetBoxOfficeRevenue = () => {
