@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
-import { Stock } from '../models/FinTechAPI/stock';
 import { StockData } from '../models/FinTechAPI/stock-data';
+import { Stock } from '../models/FinTechAPI/stock';
 import { getStock, getStockDataList, getStockList } from '../services/fin-tech-api';
 
 export const useGetStock = (symbol: string) => {
